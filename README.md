@@ -7,8 +7,6 @@ persyaratan
    
 --berjalan dalam cmd--
 
-sortcut installation syntac:
-pip install -r requirements.txt
 
 instalasi virtualenv dan setup
 - pip install virtualenv
@@ -19,7 +17,10 @@ instalasi virtualenv dan setup
 
 beberapa cara activkan env (windows)
 - env\Scripts\activate.bat
-  
+
+sortcut installation syntac (in env):
+pip install -r requirements.txt 
+
 nonactive virtualenv 
 -deactivate
 -
@@ -30,8 +31,12 @@ nonactive virtualenv
 3. pip install flask-dotenv
 4. buat folder bernama app
 
-
-
-
+-- RDBMS --
+1. buat databse
+2. configurasi .env
+3. flask db init
+4. buat models init,..
+5. flask db migrate -m "comment"
+6.  
 
 
