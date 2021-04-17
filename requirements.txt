@@ -1,5 +1,6 @@
 flask
 flask-sqlalchemy
+Flask-SQLAlchemy
 flask-migrate
 py-postgresql
 python-dotenv

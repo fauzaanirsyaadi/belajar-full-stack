@@ -11,7 +11,7 @@ class Config(object):
 # sudah menuntukan semua classnya
 # menghubungkan database dengan sqlalchemy
 
-    SQLALCHEMY_DATABASE_URI='postgresql://postgres:admin@localhost:5432/belajar_full_stack'
+    SQLALCHEMY_DATABASE_URI= 'postgresql://' + USERNAME + ':' + PASSWORD + '@' + HOST + '/' + DATABASE
     SQLALCHEMY_TRACK_MODIFICATIONS=False
-    SQLALCHEMY_RECORD_QUERY = True
+    SQLALCHEMY_RECORD_QUERIES = True
 
