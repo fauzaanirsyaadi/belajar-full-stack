@@ -7,10 +7,9 @@ from flask_migrate import Migrate
 
 app = Flask(__name__)
 app.config.from_object(Config)
+
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 
-from app import routes
-from app import models
-import users
+from .models.users import User
